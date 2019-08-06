@@ -4,17 +4,15 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 40px;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -31,3 +29,5 @@
     transform: rotate(360deg);
   }
 }
+
+#result{height:50px; width:100%; text-align: center;border:1px dashed rgb(102, 95, 95);box-sizing: border-box}
